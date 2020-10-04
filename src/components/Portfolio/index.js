@@ -1,9 +1,8 @@
 import React from 'react';
 
-import Korea from '../../assets/img/jm_korea.jpg';
 
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import CardDeck from 'react-bootstrap/CardDeck';
 
 function Project() {

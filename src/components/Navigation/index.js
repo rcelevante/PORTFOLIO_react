@@ -1,32 +1,41 @@
 import React, { useEffect } from 'react';
 
+import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
+
+
 function Navigation(props) {
-
-    const {
-    } = props;
-
+  const { navItems = [], setCurrentNavItem, currentNavItem } = props;
+  useEffect(() => {
+    if (currentNavItem === 'home') {
+      document.title = 'Rochelle Ruiz';
+    } else {
+      document.title = currentNavItem.name;
+    }
+  }, [currentNavItem]);
   return (
-    <header className="flex-row px-1">
-    <h2>
-        <a href="/">Rochelle Ruiz</a>
-    </h2>
-    <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a href="#about">About me</a>
-          </li>
-          <li className="mx-2">
-              <a href="#portfolio">Portfolio</a>
-          </li>
-          <li className="mx-2">
-              <a href="../../assets/img/Resume.pdf">Resume</a>
-          </li>
-          <li className="mx-2">
-              <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <Nav>
+        {navItems.map((navItem) => (
+          <Nav.Item
+            className={`mx-2 ${
+              currentNavItem.name === navItem.name && 'navActive'
+            }`}
+            key={navItem.short}
+          >
+            <Button variant="--color2">
+            <a
+              href={`#${navItem.short}`}
+              onClick={() => {
+                setCurrentNavItem(navItem);
+              }}
+            >
+              {navItem.name}
+            </a>
+            </Button>
+
+          </Nav.Item>
+        ))}
+    </Nav>
   );
 }
 

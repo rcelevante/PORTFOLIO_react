@@ -2,7 +2,6 @@ import React from 'react';
 
 import Col from 'react-bootstrap/Col';
 
-// import coverImage from '../../assets/img/JULIA-030719-165119-8663.jpg';
 
 function Footer() {
     return (
