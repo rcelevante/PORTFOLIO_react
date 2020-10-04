@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### CHALLENGES
+
+I deployed my app with React.js
+Fixed all imports from react in all of my index.js file. 
+When I go to my deployed page, it just shows blank.
+Not sure exactly why it is showing blank.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
