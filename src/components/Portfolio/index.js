@@ -13,6 +13,7 @@ function Project() {
   <Card.Img src="../../assets/img/kickback.png" alt="Card image" />
   <Card.ImgOverlay>
     <Card.Title>Kick Back Application</Card.Title>
+    <a href="https://achigas.github.io/KickBack/">Visit this site.</a>
   </Card.ImgOverlay>
 </Card>
 
@@ -20,6 +21,7 @@ function Project() {
   <Card.Img src="../../assets/img/mylingual.png" alt="Card image" />
   <Card.ImgOverlay>
     <Card.Title>MyLingual Application</Card.Title>
+    <a href="https://fathomless-reef-91284.herokuapp.com/">Visit this site.</a>
   </Card.ImgOverlay>
 </Card>
 
@@ -27,6 +29,15 @@ function Project() {
   <Card.Img src="../../assets/img/taskmasterpro.png" alt="Card image" />
   <Card.ImgOverlay>
     <Card.Title>Task Master Pro Application</Card.Title>
+    <a href="https://rcelevante.github.io/taskmaster-pro/">Visit this site.</a>
+  </Card.ImgOverlay>
+</Card>
+
+<Card className="bg-dark text-white">
+  <Card.Img src="../../assets/img/datespot.png" alt="Card image" />
+  <Card.ImgOverlay>
+    <Card.Title>DateSpot</Card.Title>
+    <a href="https://frightening-labyrinth-81081.herokuapp.com/">Visit this site.</a>
   </Card.ImgOverlay>
 </Card>
         

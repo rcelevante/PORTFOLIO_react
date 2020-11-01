@@ -13,7 +13,7 @@ function About() {
 <Row style={{flex: 'auto', paddingTop: '50px'}}>
 
 <div>
-Artistic Individual who loves to draw digitally and create artsy things! 8 year experience of management and account coordinator for LVMH Givenchy Fragrance. Loving mom who gets inspired by my kids imaginations.
+Artistic Individual who loves to draw digitally and create artsy things! 8 year experience of management and account coordinator for LVMH Givenchy Fragrance. Loving mom who gets inspired by my kids' imaginations.
 </div>
 </Row>
 </Col>
